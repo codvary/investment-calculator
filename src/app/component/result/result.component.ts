@@ -1,6 +1,6 @@
-import { Component, input } from '@angular/core';
-import { type Result } from '../../model/result.model';
+import { Component } from '@angular/core';
 import { CurrencyPipe } from '@angular/common';
+import { InvestmentService } from '../../service/investment.service';
 
 @Component({
   selector: 'app-result',
@@ -9,5 +9,10 @@ import { CurrencyPipe } from '@angular/common';
   styleUrl: './result.component.css'
 })
 export class ResultComponent {
-  result = input<Result[]>();
+  
+  constructor(private investmentService:InvestmentService){}
+
+  get result(){
+    return this.investmentService.resultData.asReadonly();
+  }
 }
