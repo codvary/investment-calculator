@@ -1,10 +1,9 @@
-import { Component, output, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { Component, signal } from '@angular/core';
 import { InvestmentService } from '../../service/investment.service';
 
 @Component({
   selector: 'app-form',
-  imports: [FormsModule],
+  standalone: false,
   templateUrl: './form.component.html',
   styleUrl: './form.component.css'
 })
