@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}html{height:100vh;width:100vw;background-image:radial-gradient(circle at center,#a4fa9d 0,#54b54c,#184015)}body{height:inherit;width:90%;margin:0 auto;font-family:sans-serif}app-root{height:100%;width:100%;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:repeat(12,1fr);grid-gap:.5rem}
