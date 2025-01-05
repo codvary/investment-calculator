@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+app-header{
+    grid-column: 4 / 10;
+    grid-row: 2 / 4;
+}
+
+
+app-form{
+    grid-column: 4 / 10;
+    grid-row: 4 / 7;
+}
+
+app-result{
+    grid-column: 4 / 10;
+    grid-row: 7 / 12;
+
+    overflow-y: auto;
+}

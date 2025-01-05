@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid white;
+}
+
+form{
+    height: inherit;
+    width: inherit;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#ii{
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+}
+
+#ai{
+    grid-column: 8 / 12;
+    grid-row: 2 / 4;
+}
+
+#er{
+    grid-column: 2 / 6;
+    grid-row: 5 / 8;
+}
+
+#d{
+    grid-column: 8 / 12;
+    grid-row: 5 / 8;
+}
+
+button{
+    grid-column: 2 / 12;
+    grid-row: 10 / 12;
+}
