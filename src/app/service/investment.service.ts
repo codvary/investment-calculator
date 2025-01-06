@@ -31,5 +31,6 @@ export class InvestmentService {
       });
     }
     this.resultData.set(annualData);
+    
   } 
 }
