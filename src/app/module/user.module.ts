@@ -7,6 +7,4 @@ import { FormsModule } from "@angular/forms";
     imports:[FormsModule],
     exports:[FormComponent]
 })
-export class UserModule{
-
-}
+export class UserModule{}

@@ -14,4 +14,5 @@ export class ResultComponent {
   get result(){
     return this.investmentService.resultData.asReadonly();
   }
+  
 }
